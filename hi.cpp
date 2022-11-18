@@ -1,7 +1,5 @@
-!int main(insfddsffdst argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
-    dsdhfhjldksfhljkdsf
-    dflkonsdjfks
-    flknsdfkljhdsxzfhjlkds
+
     return 0;
 }
