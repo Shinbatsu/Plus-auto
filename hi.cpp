@@ -1,4 +1,4 @@
-int main(int argc, char const *argv[])
+auto main(int argc, char const *argv[]) -> int
 {
 
     return 0;
