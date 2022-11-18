@@ -1,2 +1,3 @@
-# Plus-auto
-This repository provides an expample of automatic C++ CI/CD process.
+## Actions list ##
+1. https://github.com/marketplace/actions/c-c-linter
+2. https://github.com/Shinbatsu/Plus-auto/actions/new
