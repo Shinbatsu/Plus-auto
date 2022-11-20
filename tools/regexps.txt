@@ -1,0 +1,10 @@
+"one-line comment": "(//.+\n)",
+"multi-line comment":"(:?/\*)([^*][^\/]|\n)+\*\/",
+"include":"#\s*include\s*<[^>]+>",
+"namespace":"using\s+namespace\s+[^;]+;"
+"template":template\s+<[^>]+>\s*\n?
+"main-function":int\s+main\s*\([^\}]+\}\s*\n?
+"all-type-comments":"(((//.+\n)|((:?/\*)([^*][^\/]|\n?)+\*\/)))+"
+
+REGEXP FOR CHECKING A CPP FILE
+^((\n*(//\s*.+\n)|((:?/\*)([^*][^\/]|\n?)+\*\/)))+\n*(#\s*include\s*<[^>]+>|using\s+namespace\s+[^;]+;|\n)+(int\s+main\s*\([^\}]+\}\s*\n?)$

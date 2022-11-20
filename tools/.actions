@@ -1,0 +1,7 @@
+"format_code":"clang-format -i *.cpp"
+
+"format_code_expanded":"$ find . -regex '.*\.\(cpp\|hpp\|cu\|c\|h\)' -exec clang-format -style=file -i {} \;"
+    "
+"test_code":"./configure && make && ./hello
+g++ -std=c++17 hello.cpp -o hello
+g++ -std=c++17 helloTest.cpp -lcppunit -o helloTest"
