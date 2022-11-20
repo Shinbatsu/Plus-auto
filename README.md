@@ -1,3 +1,5 @@
 ## Actions list ##
-1. https://github.com/marketplace/actions/c-c-linter
-2. https://github.com/Shinbatsu/Plus-auto/actions/new
+
+1. Unit testsing
+2. Formatting
+3. Regexp Lining
